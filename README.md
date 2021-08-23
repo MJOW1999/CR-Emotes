@@ -15,7 +15,7 @@
 * JavaScript
 
 ## Inspiration
-I've been playing Clash Royale ever since it was released. A few years ago they changed the sound of the King's reactions and limited to one each. I came a doing Sudokus for as long as I can remember. I've based this project off of the Sudoku book I've had for over 10 years and Sudoku.com.  
+I've been playing Clash Royale ever since it was released. A few years ago they changed the sound of the King's reactions and limited to one each. I came across a video with the old reactions, so made this page! 
 
 ## Process
 * Came across a video with the [old King sounds](https://www.youtube.com/watch?v=SpUmrDnELws) !
