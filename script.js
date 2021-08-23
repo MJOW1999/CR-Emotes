@@ -4,15 +4,9 @@ document.querySelectorAll(".happy-king").forEach(e => {
     happy.push(e);
 })
 
-function playAudio() {
-    let output = Math.floor(Math.random() * (happy.length));
-    happy[output].play();
-    console.log(output)
-}
-
 const happyButton = document.querySelector("#happy-button");
 happyButton.addEventListener("click", () => {
-    playAudio();
+    happy[Math.floor(Math.random() * (happy.length))].play();
 })
 
 

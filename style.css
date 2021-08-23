@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "You Blockhead";
+  src: url("/You\ Blockhead.ttf");
+}
+* {
+  text-align: center;
+}
+body {
+  background-color: royalblue;
+  font-family: "You Blockhead", sans-serif;
+  color: #fffff0;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: black;
+}
+header {
+  margin-bottom: 2rem;
+}
+input {
+  max-height: 10rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  border: 1px inset black;
+}
+footer {
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
+#github-link {
+  color: #1c16d2;
+  text-decoration: none;
+}
+#github-link:hover {
+  color: red;
+}
+/* Page Styles */
+.center {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-sm {
+  max-width: 20rem;
+}
+.width-md {
+  max-width: 30rem;
+}
+.width-lg {
+  max-width: 60rem;
+}
+
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+
+.stack-xl > * + * {
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 4rem;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+  /* create an automatic grid that fits as many columns that are at least 14rem wide as possible */
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 8px;
+  /* two layered box shadows give a more natural floaty effect */
+  box-shadow: 0 2px 2px hsla(180, 10%, 20%, 0.2),
+    0 8px 20px hsla(180, 10%, 20%, 0.3);
+  overflow: hidden; /* stop the image poking out of the top at the rounded corners */
+  background-color: #446ccf;
+}
+.card:hover {
+  background-color: #4166f5;
+}
+
+/* Text styles */
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+u {
+  text-decoration-color: red;
+}
