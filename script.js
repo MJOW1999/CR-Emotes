@@ -27,3 +27,26 @@ sadButton.addEventListener("click", () => {
     sad[Math.floor(Math.random() * (sad.length))].play();
 })
 
+
+// Laughing King
+
+let laughing = [];
+document.querySelectorAll(".laughing-king").forEach(e => {
+    laughing.push(e);
+})
+
+const laughButton = document.querySelector("#laughing-button");
+laughButton.addEventListener("click", () => {
+    laughing[Math.floor(Math.random() * (laughing.length))].play();
+})
+
+// Angry King
+let angry = [];
+document.querySelectorAll(".angry-king").forEach(e => {
+    angry.push(e);
+})
+
+const angryButton = document.querySelector("#angry-button");
+angryButton.addEventListener("click", () => {
+    angry[Math.floor(Math.random() * (angry.length))].play();
+})
